@@ -10,14 +10,36 @@ body {
 header {
     background-color: #39b4e0;
     color: #f96a1b;
-    padding: 3rem 2rem;
+    padding: 0.7rem 0.7rem;
 }
 
 header h1 {
-    font-size: 4rem;
+    font-size: 2.5rem;
     text-align: center;
 }
-
+.menu {
+    list-style: none;
+    width: 100%;
+    background-color: black;
+    padding 1rem 0.5rem;
+    margin: auto;
+}
+.menu li a {
+    .text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+    display: block;
+}
+.objmenu {
+    font-size: 1rem;
+    color: #FFFFFF;
+    padding: 0.5rem 0.5rem;
+    display: inline-block;
+    text-align: center;
+}
+.menu li:hover {
+    background-color: #f96a1b; 
+}
 .container {
     width: 400px;
     margin: 0 auto;
@@ -43,7 +65,7 @@ section article p {
 
 footer {
     background-color: #3088a2;
-    padding: 3rem;
+    padding: 2rem;
     color: white;
 }
 
@@ -63,25 +85,19 @@ footer a {
     margin-left: 1rem;
     padding-right: 2.3rem;
 }
-
+footer .buttons {
+    width: 1.5rem;
+    height: 1.5rem;
+    transition:  0.3s ease;
+    color: white;
+    text-decoration: none;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    padding-right: 1.5rem;
+}
 footer a:hover {
     color: #f96a1b;
 }
-
-.whatsapp {
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 40px;
-    right: 40px;
-    background-color: #25d366;
-    color: #FFF;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 30px;
-    z-index: 100;
-}
-
-.whatsapp-icon {
-    margin-top: 13px;
+footer .buttons:hover {
+    transform: scale(1.8);
 }
