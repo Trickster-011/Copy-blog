@@ -1,9 +1,12 @@
 html {
     font-family: 'Montserrat', sans-serif;
+    min-height: 100%;
+    position: relative;
 }
 
 body {
     margin: 0;
+    margin-bottom: 40px;
     background-color: #efefef;
 }
 
@@ -22,16 +25,16 @@ header h1 {
     list-style: none;
     width: 100%;
     background-color: black;
-    padding 1rem 0.5rem;
     margin: auto;
 }
 
 .menu li a {
-    .text-decoration: none;
+    text-decoration: none;
     color: white;
     padding: 0.5rem;
     display: block;
 }
+
 .objmenu {
     font-size: 1rem;
     color: #FFFFFF;
@@ -41,7 +44,7 @@ header h1 {
 }
 
 .menu li:hover {
-    background-color: #f96a1b; 
+    background-color: #f96a1b;
 }
 
 .container {
@@ -68,6 +71,9 @@ section article p {
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     background-color: #3088a2;
     padding: 2rem;
     color: white;
@@ -89,10 +95,11 @@ footer a {
     margin-left: 1rem;
     padding-right: 2.3rem;
 }
+
 footer .buttons {
     width: 1.5rem;
     height: 1.5rem;
-    transition:  0.3s ease;
+    transition: 0.3s ease;
     color: white;
     text-decoration: none;
     margin-right: 0.5rem;
