@@ -17,6 +17,7 @@ header h1 {
     font-size: 2.5rem;
     text-align: center;
 }
+
 .menu {
     list-style: none;
     width: 100%;
@@ -24,6 +25,7 @@ header h1 {
     padding 1rem 0.5rem;
     margin: auto;
 }
+
 .menu li a {
     .text-decoration: none;
     color: white;
@@ -37,9 +39,11 @@ header h1 {
     display: inline-block;
     text-align: center;
 }
+
 .menu li:hover {
     background-color: #f96a1b; 
 }
+
 .container {
     width: 400px;
     margin: 0 auto;
@@ -95,9 +99,11 @@ footer .buttons {
     margin-left: 0.5rem;
     padding-right: 1.5rem;
 }
+
 footer a:hover {
     color: #f96a1b;
 }
+
 footer .buttons:hover {
     transform: scale(1.8);
 }
